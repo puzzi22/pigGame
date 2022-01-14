@@ -172,6 +172,11 @@ main {
 
 /* MEDIA QUERIES */
 @media (max-width: 768px) {
+   body {
+      height: 100vh;
+      overflow: hidden;
+   }
+
    .player {
       flex: 50%;
       padding: 2rem;
@@ -182,7 +187,7 @@ main {
    }
 
    .name {
-      font-size: 3rem;
+      font-size: 2.8rem;
    }
 
    .dice {
@@ -195,7 +200,7 @@ main {
    }
 
    .btn--new {
-      top: 0;
+      top: 2%;
    }
    .btn--roll {
       top: 60%;
